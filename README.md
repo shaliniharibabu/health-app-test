@@ -56,7 +56,7 @@ $ pyenv install 3.8.2
 Global version of python can be set by following command
 
 ```shell
-$ pyenv global 3.7.3
+$ pyenv global 3.8.2
 ```
 
 Once the python is installed to persist the changes and let pyenv manage python version, add the following lines to **.zshrc** or **.bash_profile** file located in the user's home directory.
