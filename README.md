@@ -1,6 +1,6 @@
 # Hospital Mobile Test
 
-This Test scuite is created using RobotFramework and Appium to enable testing on both Android and IOS environments.
+This Test suite is created using RobotFramework and Appium to enable testing on both Android and IOS environments.
 
 
 
@@ -96,26 +96,26 @@ export PATH="${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools:${PATH}"
 
 ### Appium
 
-* Install Appium server on local
+1. Install Appium server on local
 
-  ```shell
-  $ npm install appium -g
-  ```
+    ```shell
+   $ npm install appium -g
+    ```
 
-* Install Appium doctor to verify setup and requirements of local machine to work with Appium and respective devices. 
+2. Install Appium doctor to verify setup and requirements of local machine to work with Appium and respective devices. 
 
-  ```shell
-  $ npm install appium-doctor -g
-  ```
+   ```shell
+   $ npm install appium-doctor -g
+   ```
 
-* Once appium doctor is installed, the requirements of local system can be verified using the following command
+3. Once appium doctor is installed, the requirements of local system can be verified using the following command.
 
-  ```shell
-  $ appium-doctor --android # For Android
-  $ appium-doctor --ios # For IOS
-  ```
+   ```shell
+   $ appium-doctor --android # For Android
+   $ appium-doctor --ios # For IOS
+   ```
 
-* Finally install [Appium Desktop](http://appium.io/) for manual inspection of Apps in local development system.
+4. Finally install [Appium Desktop](http://appium.io/) for manual inspection of Apps in local development system.
 
 
 
