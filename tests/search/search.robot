@@ -33,10 +33,10 @@ Search With Empty String
 	When Search For Given Input	${EMPTY}
 	Then Validate Search Results	6
 
-Search With A Space As Input
+Search With A Leading Space As Input
 	Given Hospital App Launched
-	When Search For Given Input	 Roy
-	Then No Results should Be Displayed
+	When Search For Given Input	${SPACE} hospital
+	Then Validate Search Results	3
 
 Search With Misspelled Hospital Name
 	Given Hospital App Launched

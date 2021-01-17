@@ -2,7 +2,20 @@
 
 This Test suite is created using RobotFramework and Appium to enable testing on both Android and IOS environments.
 
-
+## Table of Contents
+- [Hospital Mobile Test](#hospital-mobile-test)
+  * [Dependencies](#dependencies)
+  * [Prerequisite Setup](#prerequisite-setup)
+    + [Brew](#brew)
+    + [Python](#python)
+    + [Node](#node)
+    + [Android Studio](#android-studio)
+    + [Appium](#appium)
+  * [Setting up Android Emulator](#setting-up-android-emulator)
+    + [Connecting Appium to Emulator for manual inspection](#connecting-appium-to-emulator-for-manual-inspection)
+  * [Setting up Test framework](#setting-up-test-framework)
+  * [Running the tests](#running-the-tests)
+  * [Notes](#notes) 
 
 ## Dependencies
 
@@ -12,7 +25,7 @@ This Test suite is created using RobotFramework and Appium to enable testing on 
 * Java 14
 * Android SDKs
 
-The following setup guide is created and tested on MacOS Big Sur.
+The following setup guide is created and tested on ***MacOS Big Sur***.
 
 ## Prerequisite Setup
 
@@ -100,7 +113,7 @@ export PATH="${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools:${PATH}"
 
     ```shell
    $ npm install appium -g
-    ```
+   ```
 
 2. Install Appium doctor to verify setup and requirements of local machine to work with Appium and respective devices. 
 
@@ -191,3 +204,7 @@ $ robot -d ./logs tests
 
 
 
+## Notes
+
+1. The result of the execution can be found in the `reports` folder on the respository. `reports.html` shows the result of all test executions. 
+2. Bug report is documented in [Bug-Report.md](Bug-Report.md).
