@@ -37,7 +37,6 @@ Validate Search Results
 	[Arguments]	${value}
 	Element Should Be Visible	${searchResultsContainer}	${TIMEOUT_MID}
 	${count}=	Get Matching Xpath Count	xpath=//android.widget.TextView[@resource-id='com.sensynehealth.hospitals:id/hospitalName']
-	Log	${count}
 	Should Be Equal	${count}	${value}
 
 No Results should Be Displayed
